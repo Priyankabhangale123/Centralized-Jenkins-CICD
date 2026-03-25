@@ -102,11 +102,34 @@ Library Name: shared-library-config
 ## Pipeline Setup
 Separate pipelines are created for each application:
 app-nodejs-pipeline
+<img width="1920" height="1020" alt="app-python Config - Jenkins - Google Chrome 24-03-2026 23_51_11" src="https://github.com/user-attachments/assets/d1d2eff7-6779-4bcc-8be6-b65814aedf44" />
 
+## Pipeline Workflow
+Each pipeline executes standardized stages:
 
-<img width="1276" height="603" alt="centralized-jenkins-cicd_README md at master · monikagaikwad22_centralized-jenkins-cicd - Google Chrome 24-03-2026 23_06_48" src="https://github.com/user-attachments/assets/b9347c6e-463e-425f-87a8-3bc7a028be4d" />
+* Checkout source code
+* Build application
+* Run basic tests
+* Perform security scan
+* Deploy or build Docker image
 
-app-python-pipeline
+<img width="1228" height="583" alt="Starting Jenkins - Google Chrome 25-03-2026 23_01_33" src="https://github.com/user-attachments/assets/0159a331-5cd8-4a54-98de-618e95a8eb43" />
+<img width="1222" height="508" alt="centralized-jenkins-cicd_README md at master · monikagaikwad22_centralized-jenkins-cicd - Google Chrome 25-03-2026 23_03_42" src="https://github.com/user-attachments/assets/b97863f7-e2c5-44e3-be79-ede332ed15c4" />
+
+## Deliverables
+* Centralized Jenkins CI/CD system
+* Shared pipeline library
+* Multi-application pipeline setup
+* Automated Docker image builds
+
+## Learning Outcomes
+* CI/CD automation using Jenkins
+* Shared library implementation
+* AWS-based infrastructure setup
+* Multi-project pipeline management
+
+## Conclusion
+The centralized CI/CD platform ensures consistent and reusable pipelines across multiple applications. This approach significantly improves scalability and simplifies CI/CD management.
 
 
 
